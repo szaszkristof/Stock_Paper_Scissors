@@ -1,0 +1,14 @@
+A program egy egyszerű kő-papír-olló játékot valósít meg, amelyet a felhasználó egy weboldalon keresztül játszhat. A program a következő lépéseket hajtja végre:
+
+Beállítja a játékos és a gép kezdeti pontszámát 1-re, és kiválasztja a megfelelő HTML elemeket a pontszámok és az ikonok megjelenítéséhez.
+
+A program létrehoz egy tömböt, amely tartalmazza a kő, papír és olló ikonokat a font-awesome-ból.
+
+A program létrehoz egy függvényt, amely a játék logikáját valósítja meg. Ez a függvény az összes gombhoz hozzáad egy eseménykezelőt, amely figyeli, hogy a felhasználó melyik gombot kattintotta meg. Ha a felhasználó rákattintott egy gombra, akkor a függvény a következő lépéseket hajtja végre.
+
+Az első lépésben véletlenszerűen kiválaszt egy ikont a gép számára a randomClasses tömbből.
+A felhasználó által kiválasztott ikon és a gép által kiválasztott ikon megjelenik az oldalon.
+A program meghatározza, hogy ki nyerte a kört. Ha döntetlen van, akkor a pontszámok nem változnak és az oldalon megjelenik egy üzenet, hogy "Döntetlen!". Ha a felhasználó nyer, akkor a játékos pontszáma növekszik, és az oldalon megjelenik egy üzenet, hogy "Nyertél!". Ha a gép nyer, akkor a gép pontszáma növekszik, és az oldalon megjelenik egy üzenet, hogy "Vesztettél!".
+Az oldalon megjelenik egy második üzenet is, amely az előző üzenetet tartalmazza, de egy másik színnel jelenik meg.
+A program meghívja a játék logikáját megvalósító függvényt.
+Összességében a program egy egyszerű kő-papír-olló játékot valósít meg, amely lehetővé teszi a felhasználók számára, hogy az interneten játszanak. A program létrehoz egy véletlenszerű elemet a gép számára, majd meghatározza, hogy ki nyerte a kört a felhasználó és a gép ikonjainak összehasonlításával. Az oldalon megjelennek az eredmények és az üzenetek, amelyek értesítik a felhasználót a nyertesről vagy a vesz.
